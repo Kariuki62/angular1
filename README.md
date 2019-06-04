@@ -43,7 +43,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 | Behavior: <br>_The program should_         | Input:             |   Output:                   |
 | :------------------------------------------| :------------------| :-------------------------- |
 | show likes and dislikes by use of votes    | votes clicked      | votes++                     |
-|Deleting of quotes|                         | quotes are deleted | deleted .                   |
+|Deleting of quotes                          | quotes are deleted | deleted .                   |
 
 ## Built With
 

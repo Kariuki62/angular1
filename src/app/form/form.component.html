@@ -1,0 +1,19 @@
+
+<h1> Create Your Quotes</h1>
+<div class="container">
+<form id="Greatness" (ngSubmit)="onSubmit()" >
+  <label for="author">Author</label>
+<input type="text"  #quoteAuthor='ngModel' name='quoteAuthor' [(ngModel)]="newDescription.quoteAuthor" />
+<br>
+<label for="author">Quote</label>
+<input type="text" #quoteDescription='ngModel' name='quoteDescription' [(ngModel)]="newDescription.quoteDescription" />
+<br>
+<label for="date">Date</label>
+<input type="date">
+<br>
+<input type="submit">
+</form>
+</div>
+
+
+

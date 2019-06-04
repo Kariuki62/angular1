@@ -1,0 +1,15 @@
+<app-form (quoteAdd)= 'addQuotes($event)'></app-form>
+<ul>
+  <li *ngFor="let quote of quotes;let i=index;">
+    <p>
+      {{quote.quoteDescription}}
+    </p>
+    <p>
+      {{quote.quoteAuthor}}
+    </p>
+    <app-details (removeQuote)='removeQuote($event,i)'></app-details>
+    <button (click)='upvote(i)' class="btn btn-info"> Upvote </button>{{quote.upvote}}
+    <button (click)='downvote(i)' class="btn btn-warning">Downvote</button>{{quote.downvote}}
+
+  </li>
+</ul>

@@ -65,7 +65,6 @@ This is the first version of this amazing application.
 
 - **Kelvin Kariuki** 
 
-[Email](https://mail.google.com) - kariukiwan62@gmail.com <br>
 
 ## License
 
